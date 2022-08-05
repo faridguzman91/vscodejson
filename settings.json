@@ -46,8 +46,9 @@
         "source.sortImports": true,
     },
     "workbench.colorCustomizations": {
-            "tab.activeBorderTop": "#0A84FF" // Active Tab Top Highlighting
-        },
+         "tab.activeBorderTop": "#0A84FF" // Active Tab Top Highlighting
+         "tab.activeBackground": "#062e3d" // goes well with andromeda theme
+    },
     "security.workspace.trust.untrustedFiles": "open",
     "files.autoSave": "afterDelay",
     "git.suggestSmartCommit": false,
