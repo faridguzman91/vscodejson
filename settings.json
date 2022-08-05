@@ -54,6 +54,9 @@
         "source.fixAll": true,
         "source.sortImports": true,
     },
+    "workbench.colorCustomizations": {
+            "tab.activeBorderTop": "#0A84FF" // Active Tab Top Highlighting
+        },
     "security.workspace.trust.untrustedFiles": "open",
     "files.autoSave": "afterDelay",
     "git.suggestSmartCommit": false,
