@@ -7,3 +7,6 @@ press cmd+shift+p to open json settings
 or
 <br>
 press ctrl-shift-p
+
+<br>
+i use the andromeda theme so active tab colors work well
