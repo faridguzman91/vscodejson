@@ -17,10 +17,22 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.renderControlCharacters": true,
     "terminal.integrated.allowMnemonics": true,
+    "terminal.integrated.shell.windows" : "C:\\WINDOWS\\System32\\wsl.exe",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.tabs.defaultColor": "terminal.ansiBlack",
+    "terminal.integrated.tabs.enableAnimation": true,
+    "terminal.integrated.defaultProfile.linux": true,
+    "terminal.integrated.fontWeight": "normal",
+    "terminal.integrated.fontWeightBold": "bold",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "cursor",
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
     "editor.defaultFormatter": "HookyQR.beautify",
     "editor.fontSize": 13,
+    // "glassit.alpha": 220,
+    // "glassit.step": 10,
     "editor.formatOnPaste:" : true,
     "editor.formatOnSave" : true,
     "editor.fontFamily" : "FuraMono Nerd Font",
@@ -46,7 +58,7 @@
         "source.sortImports": true,
     },
     "workbench.colorCustomizations": {
-         "tab.activeBorderTop": "#0A84FF" // Active Tab Top Highlighting
+         "tab.activeBorderTop": "#0A84FF", // Active Tab Top Highlighting,
          "tab.activeBackground": "#062e3d" // goes well with andromeda theme
     },
     "security.workspace.trust.untrustedFiles": "open",
@@ -58,4 +70,3 @@
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "tabnine.experimentalAutoImports": true
-}
