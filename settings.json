@@ -1,72 +1,83 @@
 {
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[css]": {
-        "editor.defaultFormatter": "aeschli.vscode-css-formatter"
-    },
-    "vsicons.dontShowNewVersionMessage": true,
-    "[javascript]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
-    "yaml.schemas": {
-        "file:///Users/faridguzman/.vscode/extensions/atlassian.atlascode-2.10.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-    },
-    "atlascode.configurationTarget": "workspace",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "aeschli.vscode-css-formatter"
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "yaml.schemas": {
+    "file:///c%3A/Users/ghost/.vscode/extensions/atlassian.atlascode-2.10.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "atlascode.configurationTarget": "workspace",
 
-    "diffEditor.ignoreTrimWhitespace": false,
-    "editor.renderControlCharacters": true,
-    "terminal.integrated.allowMnemonics": true,
-    "terminal.integrated.shell.windows" : "C:\\WINDOWS\\System32\\wsl.exe",
-    "terminal.integrated.fontFamily": "MesloLGS NF",
-    "terminal.integrated.fontSize": 12,
-    "terminal.integrated.tabs.defaultColor": "terminal.ansiBlack",
-    "terminal.integrated.tabs.enableAnimation": true,
-    "terminal.integrated.defaultProfile.linux": true,
-    "terminal.integrated.fontWeight": "normal",
-    "terminal.integrated.fontWeightBold": "bold",
-    "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.cursorStyle": "cursor",
-    "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false,
-    "editor.defaultFormatter": "HookyQR.beautify",
-    "editor.fontSize": 13,
-    // "glassit.alpha": 220,
-    // "glassit.step": 10,
-    "editor.formatOnPaste:" : true,
-    "editor.formatOnSave" : true,
-    "editor.fontFamily" : "FuraMono Nerd Font",
-    "workbench.editor.highlightModifiedTabs" : true,
-    "files.autoSaveDelay": "afterDelay",
-    "explorer.sortOrder": "type",
-    "editor.cursorBlinking": "smooth",
-    "editor.acceptSuggestionOnEnter" : "off",
-    "editor.fontLigatures": true,
-    "diffEditor.codeLens": true,
-    "diffEditor.wordWrap": "on",
-    "redhat.telemetry.enabled": false,
-    "workbench.colorTheme": "Andromeda",
-    "git.autofetch": true,
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "editor.wordWrap": "on",
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true,
-        "source.fixAll": true,
-        "source.sortImports": true,
-    },
-    "workbench.colorCustomizations": {
-         "tab.activeBorderTop": "#0A84FF", // Active Tab Top Highlighting,
-         "tab.activeBackground": "#062e3d" // goes well with andromeda theme
-    },
-    "security.workspace.trust.untrustedFiles": "open",
-    "files.autoSave": "afterDelay",
-    "git.suggestSmartCommit": false,
-    "editor.inlineSuggest.enabled": true,
-    "window.zoomLevel": -1,
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "tabnine.experimentalAutoImports": true
+  "guid": "{00000000-0000-0000-ba54-000000000002}",
+  "commandline": "%PROGRAMFILES%/git/usr/bin/bash.exe -i -l",
+  "icon": "%PROGRAMFILES%/Git/mingw64/share/git/git-for-windows.ico",
+  "name": "Bash",
+  "startingDirectory": "%USERPROFILE%",
+
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.renderControlCharacters": true,
+  "workbench.preferredDarkColorTheme": "Andromeda Bordered",
+  "terminal.integrated.allowMnemonics": true,
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontSize": 12,
+  // "terminal.integrated.tabs.defaultColor": "terminal.ansiBlack",
+  "terminal.integrated.tabs.enableAnimation": true,
+  "terminal.integrated.defaultProfile.linux": true,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontWeightBold": "bold",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "cursor",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontSize": 13,
+  "editor.formatOnPaste:": true,
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "FuraMono Nerd Font",
+  "workbench.editor.highlightModifiedTabs": true,
+  "files.autoSaveDelay": "afterDelay",
+  "explorer.sortOrder": "type",
+  "editor.cursorBlinking": "smooth",
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.fontLigatures": true,
+  "diffEditor.codeLens": true,
+  "diffEditor.wordWrap": "on",
+  "redhat.telemetry.enabled": false,
+  "workbench.colorTheme": "Andromeda Bordered",
+  "git.autofetch": true,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.activityBar.iconClickBehavior": "focus",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.wordWrap": "on",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll": true,
+    "source.sortImports": true
+  },
+  "workbench.colorCustomizations": {
+    "tab.activeBorder": "#0A84FF", // Active Tab Top Highlighting,
+    "tab.hoverBackground": "#0b64b88c",
+    "tab.activeBackground": "#062e3d" // goes well with andromeda theme
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "files.autoSave": "afterDelay",
+  "git.suggestSmartCommit": false,
+  "editor.inlineSuggest.enabled": true,
+  "window.zoomLevel": -1,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+
+  "tabnine.experimentalAutoImports": true,
+  "winopacity.opacity": 250
+}
